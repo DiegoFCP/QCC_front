@@ -1,16 +1,46 @@
-import './navbar.css';
+import { Navbar, Nav, Container, NavDropdown } from "react-bootstrap";
+import logo from "../assets/imgs/logo.png";
 
-function Navbar(){
-    return(
-        <nav className='navbar'>
-            <div className='logo'>QCC</div>
-            <ul className='nav-links'>
-                <li><a href='#inicio'>Inicio</a></li>
-                <li><a href='#caracteristicas'>Caracteristicas</a></li>
-                <li><a href='#contacto'>Contacto</a></li>
-            </ul>
-        </nav>
-    )
+function CustomNavbar() {
+  return (
+    <Navbar
+      expand="lg"
+      bg="dark"
+      variant="dark"
+      fixed="top"
+      className="custom-navbar"
+    >
+      <Container>
+        <Navbar.Brand href="#inicio">
+          <img
+            src={logo}
+            alt="QCC logo"
+            height="60"
+            className="d-inline-block align-top logo-img"
+          />
+        </Navbar.Brand>
+        <Navbar.Toggle aria-controls="navbar-qcc" />
+        <Navbar.Collapse id="navbar-qcc">
+          <Nav className="ms-auto nav-links">
+            <Nav.Link href="#inicio">Inicio</Nav.Link>
+            <Nav.Link href="#caracteristicas">Características</Nav.Link>
+            <Nav.Link href="#contacto">Contacto</Nav.Link>
+            <NavDropdown
+              title="Más"
+              id="nav-dropdown"
+              menuVariant="dark"
+              align="end"
+            >
+              <NavDropdown.Item href="#equipo">Nuestro equipo</NavDropdown.Item>
+              <NavDropdown.Item href="#faq">
+                Preguntas frecuentes
+              </NavDropdown.Item>
+            </NavDropdown>
+          </Nav>
+        </Navbar.Collapse>
+      </Container>
+    </Navbar>
+  );
 }
 
-export default Navbar
+export default CustomNavbar;
