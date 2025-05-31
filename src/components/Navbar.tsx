@@ -1,18 +1,17 @@
 import { Navbar, Nav, Container, NavDropdown } from "react-bootstrap";
+import "./Navbar.css"
 
 function CustomNavbar() {
   return (
     <Navbar
       expand="lg"
-      bg="dark"
-      variant="dark"
       fixed="top"
       className="custom-navbar"
     >
       <Container>
         <Navbar.Brand href="#inicio">
           <img
-            src="/assets/imgs/logo.png"
+            src="/assets/imgs/logo.png  "
             alt="QCC logo"
             height="60"
             className="d-inline-block align-top logo-img"

@@ -1,6 +1,6 @@
 /* Aplica estilo al contenedor principal del navbar */
 .custom-navbar {
-  background-color: #0a0a23 !important;
+  background-color: #1f1f2e;
   color: white;
   height: 80px;
   box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
