@@ -1,0 +1,23 @@
+.hero {
+    padding: 100px 0 60px;
+    background-color: var(--color-fondo);
+    color: var(--color-texto);
+}
+
+.hero-title {
+    font-size: 3rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.hero-subtitle {
+    font-size: 1.2rem;
+    margin-bottom: 30px;
+}
+
+.hero-img {
+    width: 60%;
+    max-width: 400px;
+    display: block;
+    margin: 0 auto;
+}

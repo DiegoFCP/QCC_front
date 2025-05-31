@@ -1,5 +1,4 @@
 import { Navbar, Nav, Container, NavDropdown } from "react-bootstrap";
-import logo from "../assets/imgs/logo.png";
 
 function CustomNavbar() {
   return (
@@ -13,7 +12,7 @@ function CustomNavbar() {
       <Container>
         <Navbar.Brand href="#inicio">
           <img
-            src={logo}
+            src="/assets/imgs/logo.png"
             alt="QCC logo"
             height="60"
             className="d-inline-block align-top logo-img"
