@@ -12,7 +12,7 @@ function Features(){
                     <Col md={4} xs={12} className="mb-4">
                         <Card className="feature-card">
                             <Card.Body>
-                                <FaRobot size={40} color="#60a5fa" aria-label="Automatización" />
+                                <FaRobot className="icon" size={60} color="#60a5fa" aria-label="Automatización" />
                                 <Card.Title>Automatización</Card.Title>
                                 <Card.Text>
                                 Procesos optimizados que reducen el trabajo manual y los errores humanos.
@@ -23,8 +23,8 @@ function Features(){
                     <Col md={4} xs={12} className="mb-4">
                         <Card className="feature-card">
                             <Card.Body>
-                                <FaUsersLine size={40} color="#60a5fa" aria-label="Interfaz Amigable"/>
-                                <Card.Title>Interfaz Amigable</Card.Title>
+                                <FaUsersLine className="icon" size={60} color="#60a5fa" aria-label="Interfaz Amigable"/>
+                                <Card.Title>Desarrollo</Card.Title>
                                 <Card.Text>
                                     Una experiencia clara e intuitiva para cualquier tipo de usuario.
                                 </Card.Text>
@@ -34,7 +34,7 @@ function Features(){
                     <Col md={4} xs={12} className="mb-4">
                         <Card className="feature-card">
                             <Card.Body>
-                                <FaChartLine size={40} color="#60a5fa" aria-label="Escalable"/>
+                                <FaChartLine className="icon" size={60} color="#60a5fa" aria-label="Escalable"/>
                                 <Card.Title>Escalable</Card.Title>
                                 <Card.Text>
                                     Diseñado para crecer junto a tu organización o flujo de trabajo.
