@@ -10,8 +10,6 @@
 - Navegación SPA con scroll entre secciones
 - Estructura modular con componentes reutilizables
 - Estilos personalizados con variables CSS
-- Footer fijo al fondo de la pantalla
-- Compatible con despliegue en Firebase Hosting y GitHub Pages
 
 ---
 
@@ -86,8 +84,6 @@ src/
 ## 📌 Consideraciones
 
 - Esta aplicación está construida como una SPA, sin rutas múltiples ni backend.
-- La sección de contacto se implementará más adelante con opciones como Formspree, EmailJS o integración personalizada.
-- Puedes extender fácilmente con nuevos componentes o integrar funcionalidades dinámicas.
 
 ---
 
