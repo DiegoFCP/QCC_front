@@ -1,0 +1,29 @@
+.footer-navbar {
+background: linear-gradient(145deg, #1f1f2e, #29293a);
+color: white;
+padding: 10px 20px;
+font-size: 0.9rem;
+z-index: 1000;
+}
+
+.footer-navbar .footer-logo {
+font-weight: bold;
+font-size: 1.2rem;
+color: white;
+}
+
+.footer-navbar .footer-text {
+color: hwb(0 88% 12%);
+margin: 0 15px;
+white-space: nowrap;
+}
+
+.footer-navbar .nav-link {
+color:hwb(0 88% 12%) !important;
+font-weight: 500;
+transition: color 0.3s ease;
+}
+
+.footer-navbar .nav-link:hover {
+color: white;
+}
