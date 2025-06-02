@@ -6,7 +6,7 @@ function Contacto() {
     return (
         <div>
             <h2>Contacto</h2>
-            <p>Puedes contactarnos al correo contacto@ejemplo.com</p>
+            <p>Puedes contactarnos al correo contacto@qcc.cl</p>
         </div>
 );
 }

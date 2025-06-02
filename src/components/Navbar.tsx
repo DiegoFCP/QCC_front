@@ -29,7 +29,7 @@ function CustomNavbar() {
               menuVariant="dark"
               align="end"
             >
-              <NavDropdown.Item href="#equipo">Nuestro equipo</NavDropdown.Item>
+              <NavDropdown.Item href="#Nosotros">Nuestro equipo</NavDropdown.Item>
               <NavDropdown.Item href="#faq">
                 Preguntas frecuentes
               </NavDropdown.Item>

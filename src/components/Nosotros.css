@@ -1,0 +1,64 @@
+/* Estilo general de la sección */
+.Nosotros-section {
+padding: 60px 0;
+background-color: white; /* Gris claro */
+}
+
+/* Título principal */
+.titulo {
+font-size: 2.5rem;
+font-weight: bold;
+margin-bottom: 10px;
+color: #1e293b; /* Azul oscuro */
+}
+
+/* Subtítulo */
+.subtitulo {
+font-size: 1.1rem;
+color: #475569; /* Gris más oscuro */
+margin: 0 auto;
+max-width: 700px;
+}
+
+/* Icono de la derecha */
+.icon {
+margin-top: 20px;
+margin-bottom: 20px;
+}
+
+/* Cards */
+.card {
+    border: none;
+    border-radius: 16px;
+    background: linear-gradient(145deg, #1f1f2e, #29293a);
+    min-height: 250px;
+    max-height: 500px;
+}
+
+.card-text{
+    color: whitesmoke;
+}
+
+/* Sombra para destacar las cards */
+.shadow-sm {
+box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+}
+
+/* Responsive en pantallas pequeñas */
+@media (max-width: 768px) {
+.Nosotros-section {
+padding: 40px 20px;
+}
+
+.titulo {
+font-size: 2rem;
+}
+
+.subtitulo {
+font-size: 1rem;
+}
+
+.icon {
+size: 80px;
+}
+}
